@@ -61,6 +61,7 @@ builder!{Activity
     assets: ActivityAssets func,
     party: ActivityParty func,
     secrets: ActivitySecrets func,
+    r#type: u8,
 }
 
 builder!{ActivityTimestamps
